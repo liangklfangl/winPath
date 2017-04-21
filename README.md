@@ -43,5 +43,14 @@ const path = require('winpath');
 path.winPath("c://desktop://");
 ```
 
-
 API
+
+<pre>
+ module.exports ={
+    isAbsolutePath,
+    isRelativePath,
+    winPath,
+    posix:pathIsAbsolute.posix,
+    win32:pathIsAbsolute.win32
+}
+</pre>
